@@ -4,6 +4,9 @@ import PinDropIcon from "@mui/icons-material/PinDrop";
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 import PersonIcon from "@mui/icons-material/Person";
 import ShoppingBagOutlinedIcon from "@mui/icons-material/ShoppingBagOutlined";
+import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
+import KeyboardVoiceOutlinedIcon from '@mui/icons-material/KeyboardVoiceOutlined';
+import CenterFocusWeakOutlinedIcon from '@mui/icons-material/CenterFocusWeakOutlined';
 
 const Navigation = () => {
   return (
@@ -37,9 +40,6 @@ const Navigation = () => {
               <FavoriteBorderIcon fontSize="small" />
               <PersonIcon fontSize="small" />
               <ShoppingBagOutlinedIcon fontSize="small" />
-              {/* <i className="fa fa-heart"></i> */}
-              {/* <i className='fas fa-user-alt'></i> */}
-              {/* <i className="fa fa-shopping-bag"></i> */}
             </div>
           </div>
           <div className="row navbar__options width">
@@ -51,7 +51,26 @@ const Navigation = () => {
           </div>
           <hr className="width" />
         </section>
-        <section></section>
+        <section>
+            <div className="width row search">
+                <div className="row">
+                    <label>SALE</label>&nbsp;&nbsp;
+                    <label>NEW IN</label>&nbsp;&nbsp;
+                    <label>CLOTHING</label>&nbsp;&nbsp;
+                    <label>SHOES</label>&nbsp;&nbsp;
+                    <label>ACCESSORIES</label>&nbsp;&nbsp;
+                    <label>BRANDS</label>
+                </div>
+                <div className="search__input">
+                    <div className="row">
+                        <SearchOutlinedIcon/>
+                        <input/>
+                        <KeyboardVoiceOutlinedIcon/>
+                        <CenterFocusWeakOutlinedIcon/>
+                    </div>
+                </div>
+            </div>
+        </section>
       </div>
     </>
   );
