@@ -42,6 +42,10 @@ body {
   margin: auto;
 }
 
+.align {
+  align-items: center;
+}
+
 /* navbar component css */
 
 .header__heading {

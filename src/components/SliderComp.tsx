@@ -34,11 +34,11 @@ const SliderComp = (props: sliderprops) => {
                 </div>
                 <p className="crousel--brand fs9">BRAND/TYPE</p>
                 <p className="crousel--title fs12">Name and Characteristics</p>
-                <p className="row" style={{ gap: "10px" }}>
+                <p className="row align" style={{ gap: "10px" }}>
                   <span className="crousel--price fs14">74,95 €</span>
                   <span className="crousel--cutPrice fs12">121,00 €</span>
                 </p>
-                <p>
+                <p className="row align">
                   <span>
                     <StarIcon className="star__fontsize" />
                     <StarIcon className="star__fontsize" />

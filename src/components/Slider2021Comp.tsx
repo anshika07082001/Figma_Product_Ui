@@ -12,13 +12,13 @@ const Slider2021Comp = () => {
             return (
               <div className="crousel__block crousel--position column">
                 <img src={item} alt="" />
-                <p className="crousel--brand">BRAND/TYPE</p>
-                <p className="crousel--title">Name and Characteristics</p>
-                <p className="row" style={{ gap: "10px" }}>
-                  <span className="crousel--price">74,95 €</span>
-                  <span className="crousel--cutPrice">121,00 €</span>
+                <p className="crousel--brand fs9">BRAND/TYPE</p>
+                <p className="crousel--title fs12">Name and Characteristics</p>
+                <p className="row align" style={{ gap: "10px" }}>
+                  <span className="crousel--price fs14">74,95 €</span>
+                  <span className="crousel--cutPrice fs12">121,00 €</span>
                 </p>
-                <p>
+                <p className="row align">
                   <span>
                     <StarIcon className="star__fontsize" />
                     <StarIcon className="star__fontsize" />
@@ -26,7 +26,7 @@ const Slider2021Comp = () => {
                     <StarIcon className="star__fontsize" />
                     <StarIcon className="star__fontsize" />
                   </span>
-                  <span className="crousel--ratingpoint">(45)</span>
+                  <span className="crousel--ratingpoint fs9">(45)</span>
                 </p>
               </div>
             );
