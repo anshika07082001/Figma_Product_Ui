@@ -15,6 +15,39 @@ const SliderComp = (props: sliderprops) => {
     slidesToShow: 5,
     slidesToScroll: 1,
     autoplay: true,
+    responsive: [
+      {
+        breakpoint: 1077,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 1,
+          infinite: true,
+        }
+      },
+      {
+        breakpoint: 860,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          initialSlide: 2
+        }
+      },
+      {
+        breakpoint: 670,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1
+        }
+      },
+      {
+        breakpoint: 470,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      },
+
+    ]
   };
 
   return (
@@ -25,7 +58,7 @@ const SliderComp = (props: sliderprops) => {
           {props.crousel1.map((item) => {
             return (
               <div className="crousel__block column">
-                <img src={item} alt="" />
+                <img src={item} alt="" className="pr" />
                 <div className="like__block">
                   <FavoriteBorderIcon />
                 </div>

@@ -7,10 +7,10 @@ const Slider2021Comp = () => {
     <section className="width">
       <div className="crousel__content column">
         <h3 className="crousel__heading">SPRING/SUMMER 2021</h3>
-        <div className="row" style={{ gap: "30px" }}>
+        <div className="row grid" style={{ gap: "20px" }}>
           {images.map((item) => {
             return (
-              <div className="crousel__block crousel--position column">
+              <div className="crousel__block  column">
                 <img src={item} alt="" />
                 <p className="crousel--brand fs9">BRAND/TYPE</p>
                 <p className="crousel--title fs12">Name and Characteristics</p>

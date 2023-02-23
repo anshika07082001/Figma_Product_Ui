@@ -13,13 +13,13 @@ const Navbar = () => {
     <>
       <div className="header__block">
         {/* header heading */}
-        <section className="header__heading fs12 width">
+        <section className="header__heading fs12 align width">
           <label>20% Off! Code: SPRING21 - Terms apply*</label>
         </section>
         {/* header top */}
         <section className="header__top width">
           <div className="header__top__inner">
-            <div className="row navbar__logo">
+            <div className="row navbar__logo align">
               <div className="row">
                 <img
                   src="Subtract.png"
@@ -31,9 +31,9 @@ const Navbar = () => {
                   <label>FASHION</label>
                 </div>
               </div>
-              <div className="header__top__icons row">
+              <div className="header__top__icons align row">
                 <div className="row icons__left">
-                  <div className="icons--align row">
+                  <div className="icons--align align row">
                     <HeadsetMicIcon fontSize="small" />
                     <label className="fs12">Support</label>
                   </div>
@@ -55,7 +55,7 @@ const Navbar = () => {
               <label className="fs14">KIDS</label>
             </div>
             <hr />
-            <div className="row search__options ">
+            <div className="row search__options align ">
               <div className="row search__headings">
                 <label className="fs12">SALE</label>
                 <label className="fs12">NEW IN</label>
@@ -65,7 +65,7 @@ const Navbar = () => {
                 <label className="fs12">BRANDS</label>
               </div>
               <div className="search">
-                <div className="row search__icons">
+                <div className="row search__icons align">
                   <SearchOutlinedIcon fontSize="small" />
                   <input
                     placeholder="Search Products, Articles"
@@ -81,7 +81,7 @@ const Navbar = () => {
         </section>
         {/* header bottom */}
         <section className="header__bottom width">
-          <div className="banner__img">
+          <div className="banner__img pr">
             <h1 className="banner__content">NEW</h1>
             <h1 className="banner__content banner--collection">COLLECTION</h1>
             <h6 className="banner__content banner--2021">SPRING/SUMMER2021</h6>

@@ -3,9 +3,9 @@ import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 
 const Banner = () => {
   return (
-    <section className="width">
-      <div className="banner">
-        <div className="banner__bottom">
+    <section>
+      <div className="banner pr">
+        <div className="banner__bottom pr">
           <div className="banner__inner column">
             <label className="banner--content">It’s all about you</label>
             <label className="banner--para">
@@ -13,7 +13,7 @@ const Banner = () => {
               with your purchase - you have 30 days before we charge you! Learn
               more about our policy.
             </label>
-            <div className="banner__arrowIcon">
+            <div className="banner__arrowIcon align">
               <ArrowForwardIcon />
             </div>
           </div>
